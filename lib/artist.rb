@@ -6,16 +6,16 @@ class Artist
     @songs = []
   end
 
-  def self.add_song(title)
-    @songs << title
-  end
-
-  def add_song_by_name(title)
-    title.name = song
+  def add_song(song)
     @songs << song
   end
 
-  def song_count
+  def add_song_by_name(song)
+    song.new = song
+    @songs << song
+  end
+
+  def self.song_count
     @songs.size
   end
 
