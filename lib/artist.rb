@@ -6,7 +6,7 @@ class Artist
     @songs = []
   end
 
-  def add_song(title)
+  def self.add_song(title)
     @songs << title
   end
 
@@ -17,6 +17,10 @@ class Artist
 
   def song_count
     @songs.size
+  end
+
+  def songs
+    @songs
   end
 
 end
