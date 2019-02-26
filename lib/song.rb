@@ -7,8 +7,8 @@ class Song
     @@all << title
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end
 
   def name(name)
@@ -21,5 +21,5 @@ class Song
 
   def artist_name
   end
-  
+
 end
